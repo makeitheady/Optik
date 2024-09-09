@@ -6,6 +6,8 @@
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
 //
 
+import QuartzCore
+
 /// 4D vector type. Internally holds a `Vector`.
 internal struct Vector4D {
     
