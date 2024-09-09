@@ -15,6 +15,6 @@ Optik provides a simple viewing experience for a set of images, whether stored l
   s.platform     = :ios, '12.0'
   s.requires_arc = true
 
-  s.source_files = 'Sources/Optik/Classes/**/*{.swift}'
+  s.source_files = 'Sources/Optik/**/*{.swift}'
   s.resources = ['Sources/Optik/Resources/*.xcassets']
 end
