@@ -6,6 +6,8 @@
 //  Copyright © 2016 Prolific Interactive. All rights reserved.
 //
 
+import QuartzCore
+
 /// RK4 integrator. Source: http://gafferongames.com/game-physics/integration-basics/
 internal struct SpringIntegrator<T: Interpolatable> {
     
